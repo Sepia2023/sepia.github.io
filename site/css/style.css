@@ -1,0 +1,11 @@
+:root {
+    /* nav bar */
+    --bs-light-rgb: 111, 239, 255;
+    --bs-body-font-family: Verdana;
+    --gradient-border-width: 10px;
+}
+
+.global-container {
+    min-height: calc(100vh - 128px);
+    background: aliceblue;
+}
