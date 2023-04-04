@@ -1,11 +1,35 @@
 :root {
-    /* nav bar */
-    --bs-light-rgb: 111, 239, 255;
     --bs-body-font-family: Verdana;
     --gradient-border-width: 10px;
 }
 
+ul li a:hover {
+    background-color: #d3daff;
+    color: white;
+}
+
+nav{
+    width: 100%;
+    background-color: rgba(141,87,234,0.2);
+}
+
 .global-container {
     min-height: calc(100vh - 128px);
-    background: aliceblue;
+    background: #eeffdf;
 }
+
+
+.document{
+    list-style: none;
+    display: inline-block;
+    display: block;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.document a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8a80c2;
+}
+
+
