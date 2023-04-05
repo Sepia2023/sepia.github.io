@@ -2005,13 +2005,13 @@ input, select, textarea {
 /* Item */
 
 	.item {
-		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.00);
 		margin-bottom: 40px;
 	}
 
 		.item header {
 			background: #fff;
-			margin: 0;
+			margin: 1px;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
 		}
