@@ -1997,7 +1997,9 @@ input, select, textarea {
 		.button:hover {
 			background-color: #9ececc;
 		}
-
+		.docbutton:hover{
+			background-color: #8a80c2;
+		}
 		input[type="button"]:active,
 		input[type="submit"]:active,
 		input[type="reset"]:active,
