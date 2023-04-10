@@ -1971,12 +1971,13 @@ input, select, textarea {
 	input[type="reset"],
 	button,
 	.button {
-		position: relative;
+		position: center;
 		display: inline-block;
 		border-radius: 0.35em;
 		color: #fff !important;
 		text-decoration: none;
-		padding: 0.75em 2.5em 0.75em 2.5em;
+		padding: 0.75em 2.5em;
+		margin: 0.5em 0.5em;
 		background-color: #8ebebc;
 		border: 0;
 		cursor: pointer;
@@ -1994,12 +1995,17 @@ input, select, textarea {
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		button:hover,
+		.docbutton{
+			background-color: #8a80c2;
+			display: block;
+		}
 		.button:hover {
 			background-color: #9ececc;
 		}
 		.docbutton:hover{
-			background-color: #8a80c2;
+			background-color: #8d57ea;
 		}
+
 		input[type="button"]:active,
 		input[type="submit"]:active,
 		input[type="reset"]:active,
